@@ -1,37 +1,6 @@
 
 # 代码随想录 · LeetCode-Master
 
-<p align="center">
-  <a href="https://keetcoder.com/">🌍 海外英文版</a> ·
-  <a href="https://github.com/youngyangyang04/keetcoder">🌍🇸 英文仓库</a> ·
-  <a href="https://programmercarl.com/">🇨🇳 国内在线阅读</a> ·
-  <a href="https://gitee.com/programmercarl/leetcode-master">🇨  Gitee 同步</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/youngyangyang04/leetcode-master/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/youngyangyang04/leetcode-master?style=flat&label=Stars"></a>
-  <a href="https://github.com/youngyangyang04/leetcode-master/network/members"><img alt="forks" src="https://img.shields.io/github/forks/youngyangyang04/leetcode-master?style=flat&label=Forks"></a>
-  <a href="https://github.com/youngyangyang04/leetcode-master/issues"><img alt="issues" src="https://img.shields.io/github/issues/youngyangyang04/leetcode-master?style=flat&label=Issues"></a>
-  <a href="https://github.com/youngyangyang04/leetcode-master/graphs/contributors"><img alt="contributors" src="https://img.shields.io/github/contributors/youngyangyang04/leetcode-master?style=flat&label=Contributors"></a>
-</p>
-
-> 一套 **循序渐进**、**少走弯路** 的刷题计划。
-> 题目已按知识脉络与难度 **排好顺序**，每题配 **图文题解 + 视频讲解**。
-> 适合从零到进阶、系统化掌握数据结构与算法。
-
----
-
-## 🔗 快速入口
-
-- 📘 **出版书籍**：[《代码随想录》](https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BASMJK1olXwABU1pUCU0SCl8IGV8WVAICU24ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYAUF1UDEsQHDZNRwYlVEBGPAIccE51dQ1cfjpVCnsHUjYbTkcbM244GFIXWQYAUV5VOHsXBF9adYOj696n5UKJosTCi_g4GmsVWwILVFhZCUIXBWgMK1wVVDZfHAIVXwAnM18LK1wVVBIEJh8PHE1lM18IK1glXQcCVVpYDU8RB2YUG18QXA4BSF5bDEIXBWsJHlgVXAEyVl9cDEInM7GFqyYQWHkHVBY1TUxoBmZtXT7L0LYTKClfCkMWEl8BGCMVCkFGBg01Dg5zSgcJUCxeD2AKNRwzChFKfGx3HQtCDnN3XV0aDB1KM2o4G10VXzY)
-- 🧾 **PDF 精讲**：[算法精讲 PDF](https://programmercarl.com/qita/algo_pdf.html)
-- 🎬 **算法公开课**：[170期硬核视频](https://www.bilibili.com/video/BV1fA4y1o715)
-- 🧠 **卡码笔记**：[最强八股文](https://notes.kamacoder.com/)
-- 👥 **学习社区**：项目 / 面经 / 学习方法 / 面试技巧 → 加入 [「代码随想录」知识星球](https://programmercarl.com/other/kstar.html)
-- 🤝 **参与贡献**：本仓讲解以 C++ 为主，含 Java / Python / Go / JS 多语言实现。想点亮头像 👉 [如何提交代码](https://www.programmercarl.com/qita/join.html) · [致谢贡献者](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)
-- 📢 **转载须知**：全部为原创，引用请标注来源；恶意搬运将依法维权。
-
----
 
 ## 📚 为什么选这套刷题路线？
 
@@ -434,38 +403,12 @@
 
 - [各类基础算法模板（持续更新）](https://github.com/youngyangyang04/leetcode/blob/master/problems/算法模板.md)
 
----
 
-## 🙌 参与贡献
-
-- 欢迎提交 **题解修订 / 多语言实现 / 文档勘误 / 新增练习**
-- 请先阅读：[如何提交与协作](https://www.programmercarl.com/qita/join.html)
-- 致谢所有贡献者 → [Contributors](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)
-
----
-
-## ⭐ Star 趋势
-
-[![Star History Chart](https://api.star-history.com/svg?repos=youngyangyang04/leetcode-master&type=Date)](https://star-history.com/#youngyangyang04/leetcode-master&Date)
-
----
-
-## 👨‍💻 关于作者
-
-大家好，我是 **程序员 Carl**，哈工大师兄，先后在腾讯、百度从事后端与底层技术研发，著有《代码随想录》。
 
 ---
 
 ## 📥 PDF 下载与学习群
 
-添加下方企业微信，自动获取 **PDF 精讲**，并可选择加入刷题群：
-> 备注格式
-> - **在职**：姓名-城市-岗位
-> - **学生**：姓名-学校-年级（**无备注不通过**）
-
-<p align="center">
-  <img src="https://file1.kamacoder.com/i/algo/shuati20250519.jpg" width="200" height="200" />
-</p>
 
 ---
 
