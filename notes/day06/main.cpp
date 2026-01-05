@@ -82,6 +82,7 @@ public:
     }
 };
 
+
 int main() {
     SimpleHashTable ht(10);
     ht.insert("Apple", 50);
