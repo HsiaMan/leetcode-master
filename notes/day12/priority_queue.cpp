@@ -1,3 +1,4 @@
+#include <functional>
 #include <iostream>
 #include <queue>
 #include <string>
@@ -35,11 +36,15 @@ int main() {
     std::cout << "--- 正在登记病患 ---" << std::endl;
     
     // push 操作的时间复杂度是 O(log N)
-
-   //  er_queue.push({3, "张三", 1}); // 感冒
-   //  er_queue.push({10, "李四", 2}); // 严重外伤 (最高优先级)
-   //  er_queue.push({5, "王五", 3}); // 持续发烧
-   //  er_queue.push({5, "赵六", 4}); // 腹痛 (与王五优先级相同，但后到)
+   std::vector<Patient> v1 = {{3, "张三", 1},
+                                   {10, "李四", 2},
+                                   {5, "王五", 3},
+                                   {5, "赵六", 4}
+                                  };
+   //  er_queue.push(); // 感冒
+   //  er_queue.push(); // 严重外伤 (最高优先级)
+   //  er_queue.push(); // 持续发烧
+   //  er_queue.push(); // 腹痛 (与王五优先级相同，但后到)
 
     std::cout << "当前急诊室人数: " << er_queue.size() << "\n\n";
 
