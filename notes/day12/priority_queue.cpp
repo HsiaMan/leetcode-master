@@ -30,7 +30,7 @@ Patient(int p ,std::string n ,int a ):_priority(p),_name(n),_arrival_order(a){}
 int main() {
     // 3. 创建优先级队列
     // 类型是 Patient，底层容器用 vector，排序规则用 Patient 内部定义的 <
-    std::priority_queue<Patient> er_queue;
+    std::priority_queue<Patient,std::pmr::vector<Patient>> er_queue;
 
     // 4. 模拟病患到达
     std::cout << "--- 正在登记病患 ---" << std::endl;
@@ -45,6 +45,9 @@ int main() {
    //  er_queue.push(); // 严重外伤 (最高优先级)
    //  er_queue.push(); // 持续发烧
    //  er_queue.push(); // 腹痛 (与王五优先级相同，但后到)
+   for (const auto & elem : v1) {
+      er_queue.push(elem);
+   }
 
     std::cout << "当前急诊室人数: " << er_queue.size() << "\n\n";
 

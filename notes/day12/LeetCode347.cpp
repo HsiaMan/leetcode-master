@@ -18,7 +18,7 @@ int main(){
    }
    using PII = std::pair<int, int>;
    // PII(数据类型) std::vector<PII>底层容器 std::greater<PII>(比较器-最关键)
-   std::priority_queue<PII,std::vector<PII>,std::greater<PII>> pq;
+   std::priority_queue<PII,std::pmr::vector<PII>,std::greater<PII>> pq;
 
    // 遍历map，维护大小为 k 的小顶堆
    for (auto & elem : counts) {
