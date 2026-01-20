@@ -82,9 +82,42 @@ class LRUCache{
          // 从map中删除
          _mp.erase(key);
       }
+      // 删除最久未使用的元素
+      void removeLeastRecently(){
+         // 链表头部的第一个元素就是最久未使用的
+         Node * deleteNode = _cache.removeFirst();
+         // 同时别忘了从map中删除它的key
+         int deleteKey = deleteNode->_key;
+         _mp.erase(deleteKey);
+      }
+
    public:
       LRUCache(int capacity):_cap(capacity){};
-};
+
+      int get(int key){
+         if (!_mp.count(key)) {
+            return -1;
+         }
+         // 将该数据提升为最近使用的
+         makeReccently(key);
+         return _mp[key]->_value;
+      }
+      void put(int key,int val){
+         if (_mp.count(key)) {
+            // 删除旧的数据
+            deleteKey(key);
+            // 新插入的数据为最近使用的数据
+            addRecently(key, val);
+            return;
+         }
+         if (_cap == _cache.getSize()) {
+            // 删除最近未使用的元素
+            removeLeastRecently();
+         }
+         // 添加未最近使用的元素
+         addRecently(key, val);
+      }
+}; 
 
 int min(){  
    std::list<std::pair<int, int>> cache;
